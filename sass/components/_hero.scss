@@ -1,0 +1,28 @@
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+    background-image:  linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),url('../images/elevator.jpg');
+    background-size: cover;
+    display: flex;
+    //justify-content: center;
+    align-items: center;
+}
+
+.hero_title {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    max-width: 1000px;
+    // margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+  }
+  

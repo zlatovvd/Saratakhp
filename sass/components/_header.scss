@@ -1,0 +1,37 @@
+.header {
+    position: absolute;
+    width: 1440P;
+    padding: 60px 40px;
+    font-size: 30px;
+    // background-color: aqua;
+}
+
+.navigation {
+    display: flex;
+    justify-content:space-between;
+}
+
+.navigation-list {
+    display: flex;
+}
+
+.navigation-item {
+    margin-right: 30px;
+}
+
+.navigation-link {
+    color: white;
+}
+
+.contacts-list {
+    display: flex;
+
+}
+
+.contacts-item {
+    margin-right: 30px;
+
+    & > a {
+        color: white;
+    }
+}
