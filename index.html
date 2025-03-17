@@ -1,52 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ТОВ "Саратський КХП"</title>
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header class="header">
-        <div class="container">
-            
-            <nav class="navigation">
-                <a href="">SarataKHP</a>
-                <ul class="navigation-list list">
-                    <li class="navigation-item">
-                        <a class="navigation-link link" href="">Головна</a>
-                    </li>
-                    <li class="navigation-item">
-                        <a class="navigation-link link" href="">Услуги</a>
-                    </li>                
-                    <li class="navigation-item">
-                        <a class="navigation-link link" href="">Про нас</a>
-                    </li>                
-                </ul>
-                <ul class="contacts-list list">
-                    <li class="contacts-item">
-                        <a href="">khp.sekretar@ukr.net</a>
-                    </li>
-                    <li class="contacts-item">
-                        <a href="">067-12345678</a>
-                    </li>                
-                </ul>
-            </nav>
+      <section class="header__title">
+        <div class="container title-container">
+          <a class="title__logo link" href="">
+            <div class="logo">
+                <div class="logo-item"></div>
+                <div class="logo-item logo-item2"></div>
+                <div class="logo-item"></div>
+                <div class="logo-item"></div>
+            </div>
+            SarataKHP
+          </a>
+          <ul class="title__list list">
+            <li class="title__item">
+              <svg class="title__icon" height="63" width="63">
+                <use href="./images/sprite.svg#icon-Clock"></use>
+              </svg>
+              <div class="title__description">
+                <div>Пн - Пт 8:00 - 17:00</div>
+                <div>Сб - Нд Вихідний</div>
+              </div>
+            </li>
+            <li class="title__item">
+              <svg class="title__icon" height="63" width="63">
+                <use href="./images/sprite.svg#icon-mail"></use>
+              </svg>
+              <div class="title__description">
+                <div>Email</div>
+                <div>Khp.sekretar@ukr.net</div>
+              </div>
+            </li>
+            <li class="title__item">
+              <svg class="title__icon" height="63" width="63">
+                <use href="./images/sprite.svg#icon-phone"></use>
+              </svg>
+              <div class="title__description">
+                <div>Дзвонить нам</div>
+                <div>(067) 12345678</div>
+              </div>
+            </li>
+          </ul>
         </div>
+      </section>
+
+      <section class="navigation">
+        <div class="container nav-container">
+          <nav class="nav">
+            <ul class="navigation-list list">
+              <li class="navigation-item">
+                <a class="navigation-link link" href="">Головна</a>
+              </li>
+              <li class="navigation-item">
+                <a class="navigation-link link" href="">Про нас</a>
+              </li>              
+              <li class="navigation-item">
+                <a class="navigation-link link" href="">Послуги</a>
+              </li>
+              <li class="navigation-item">
+                <a class="navigation-link link" href="">Контакти</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="social-list list">
+            <li class="socisl-item">
+                <a class="social-link link" href="">
+                    <svg class="title__icon" height="20" width="20">
+                        <use href="./images/sprite.svg#icon-Instagram"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="socisl-item">
+                <a class="social-link link" href="">
+                    <svg class="title__icon" height="20" width="20">
+                        <use href="./images/sprite.svg#icon-Facebook"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="socisl-item">
+                <a class="social-link link" href="">
+                    <svg class="title__icon" height="20" width="20">
+                        <use href="./images/sprite.svg#icon-Twitter"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="socisl-item">
+                <a class="social-link link" href="">
+                    <svg class="title__icon" height="20" width="20">
+                        <use href="./images/sprite.svg#icon-Linkdin"></use>
+                    </svg>
+                </a>
+            </li>                                    
+          </ul>
+        </div>
+      </section>
     </header>
 
     <main>
-        <section class="hero">
-            <div class="container">
+      <section class="hero">
+        <div class="container hero-container">
+            <div class="hero-descrition">
                 <h1 class="hero_title">Ефективні рішення для вашого бізнесу</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis culpa alias, cupiditate ipsam odio labore aliquid quas sint exercitationem repellat eaque fugit tenetur, blanditiis minima tempora aut voluptatem harum excepturi.</p>
+                <button class="hero-btn">Дізнатись більше</button>
             </div>
-           
-        </section>
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="container about-container">
+            <div class="about-title">
+                <h2>Про нас</h2>
+                <h3>Безпечні та надійні рішення</h3>
+            </div>
+            
+            <ul class="about-list list">
+                <li class="about-item">
+                    <svg class="about__icon" height="40" width="40">
+                        <use href="./images/sprite.svg#icon-time"></use>
+                    </svg>
+                    <div class="about-description">
+                        <h3>1948</h3>
+                        <p>рік заснування</p>
+                    </div>
+                    
+                </li>
+                <li class="about-item">
+                    <svg class="about__icon" height="40" width="40">
+                        <use href="./images/sprite.svg#icon-database"></use>
+                    </svg>
+                    <div class="about-description">
+                        <h3>178 000</h3>
+                        <p>тонн одночасного зберігання</p>
+                    </div>
+                    
+                </li>
+                <li class="about-item">
+                    <svg class="about__icon" height="40" width="40">
+                        <use href="./images/sprite.svg#icon-renren"></use>
+                    </svg>
+                    <div class="about-description">
+                        <h3>500</h3>
+                        <p>тон переробки на добу</p>
+                    </div>
+                    
+                </li>
+                <li class="about-item">
+                    <svg class="about__icon" height="40" width="40">
+                        <use href="./images/sprite.svg#icon-board"></use>
+                    </svg>
+                    <div class="about-description">
+                        <h3>1</h3>
+                        <p>морській порт в доступі</p>
+                    </div>
+                    
+                </li>                                                
+            </ul>
+        </div>
+      </section>
+
+      <section class="services">
+        <h2>Послуги</h2>
+        <ul class="services-list list">
+            <li class="services-item">
+                <div class="services-wrap">
+                    <img src="./images/склади1.jpg" alt="">
+                </div>
+            </li>
+        </ul>
+      </section>
+
     </main>
 
-    <footer>
-
-    </footer>
-    
-</body>
+    <footer></footer>
+  </body>
 </html>
+
