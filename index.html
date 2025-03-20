@@ -30,7 +30,7 @@
               <div class="logo-item"></div>
               <div class="logo-item"></div>
             </div>
-            SarataKHP
+            СаратаКХП
           </a>
           <ul class="title__list list">
             <li class="title__item">
@@ -69,16 +69,16 @@
           <nav class="nav">
             <ul class="navigation-list list">
               <li class="navigation-item">
-                <a class="navigation-link link" href="">Головна</a>
+                <a class="navigation-link link" href="#hero">Головна</a>
               </li>
               <li class="navigation-item">
-                <a class="navigation-link link" href="">Про нас</a>
+                <a class="navigation-link link" href="#about">Про нас</a>
               </li>
               <li class="navigation-item">
-                <a class="navigation-link link" href="">Послуги</a>
+                <a class="navigation-link link" href="#services">Послуги</a>
               </li>
               <li class="navigation-item">
-                <a class="navigation-link link" href="">Контакти</a>
+                <a class="navigation-link link" href="#contacts">Контакти</a>
               </li>
             </ul>
           </nav>
@@ -117,7 +117,7 @@
     </header>
 
     <main>
-      <section class="hero">
+      <section class="hero" id="hero">
         <div class="container hero-container">
           <div class="hero-descrition">
             <h1 class="hero_title">Ефективні рішення для вашого бізнесу</h1>
@@ -132,7 +132,7 @@
         </div>
       </section>
 
-      <section class="about">
+      <section class="about" id="about">
         <div class="container about-container">
           <div class="about-title">
             <h2>Про нас</h2>
@@ -181,7 +181,7 @@
       </section>
 
       <section class="services">
-        <div class="container services-container">
+        <div class="container services-container"  id="services">
           <h2>Послуги</h2>
           <ul class="services-list list">
             <li class="services-item">
@@ -269,7 +269,7 @@
       </section> -->
     </main>
 
-    <footer class="footer">
+    <footer class="footer" id="contacts">
       <div class="container footer-container">
         <a class="footer__logo link" href="">
           <div class="logo">
@@ -278,7 +278,7 @@
             <div class="logo-item"></div>
             <div class="logo-item"></div>
           </div>
-          SarataKHP
+          СаратаКХП
         </a>
         <div class="footer-contacts">
           <div class="footer-first-panel footer-panel">
@@ -313,16 +313,16 @@
           <div class="footer-second-panel footer-panel">
             <ul class="navigation-footer__list list">
               <li class="navigation-footer-item">
-                <a class="navigation-link link" href="">Головна</a>
+                <a class="navigation-link link" href="#hero">Головна</a>
               </li>
               <li class="navigation-footer-item">
-                <a class="navigation-link link" href="">Про нас</a>
+                <a class="navigation-link link" href="#about">Про нас</a>
               </li>
               <li class="navigation-footer-item">
-                <a class="navigation-link link" href="">Послуги</a>
+                <a class="navigation-link link" href="#services">Послуги</a>
               </li>
               <li class="navigation-footer-item">
-                <a class="navigation-link link" href="">Контакти</a>
+                <a class="navigation-link link" href="#contacts">Контакти</a>
               </li>
             </ul>
           </div>
@@ -370,10 +370,28 @@
       </div>
     </footer>
 
-    <div class="backdrop is-hidden">
+    <div class="backdrop is-hidden" data-hero>
       <div class="services-modal">
         <div class="modal-panel">
-          <button type="button" class="modal__close_btn" data-modal-close>
+          <button type="button" class="modal__close_btn" data-hero-close>
+            <svg class="modal__close_icon" width="12" height="12">
+              <use href="/images/sprite.svg#icon-close"></use>
+            </svg>
+          </button>
+        </div>
+
+        <div class="services-deskriptions">
+          <h3>Раздел Hero</h3>
+          
+
+        </div>
+      </div>
+    </div>
+
+    <div class="backdrop is-hidden" data-services>
+      <div class="services-modal">
+        <div class="modal-panel">
+          <button type="button" class="modal__close_btn" data-services-close>
             <svg class="modal__close_icon" width="12" height="12">
               <use href="/images/sprite.svg#icon-close"></use>
             </svg>
