@@ -4,13 +4,13 @@
     background-image:  linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
-      ),url('../images/elevator.jpg');
+      ),url('../images/elevator320.jpg');
     background-size: cover;
     color: white;
 }
 
 .hero-container {
-  padding-top: 250px;
+  padding-top: 150px;
 }
 
 .hero-descrition {
@@ -35,4 +35,57 @@
   cursor: pointer;
   border: none;
 }
+
+@media screen and (min-width: 480px) {
+
+  .hero {
+    background-image:  linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),url('../images/elevator480.jpg');  
+    padding-top: 180px;
+   }  
+
+}
+
+@media screen and (min-width: 768px) {
+
+  .hero {
+    background-image:  linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),url('../images/elevator768.jpg');  
+
+    padding-top: 200px;      
+  }
+}
+
+@media screen and (min-width: 1200px) {
   
+  .hero {
+    background-image:  linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),url('../images/elevator1200.jpg');
+  }
+
+  .hero-container {
+    padding-top: 220px;
+  }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+  .hero {
+    background-image:  linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),url('../images/elevator1440.jpg');
+  }
+
+  .hero-container {
+    padding-top: 250px;
+  }
+
+}

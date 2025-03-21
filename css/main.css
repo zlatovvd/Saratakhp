@@ -41,23 +41,39 @@ ul {
 }
 
 .container {
-  width: 1440px;
+  max-width: 320px;
   padding-left: 28px;
   padding-right: 28px;
   margin-left: auto;
   margin-right: auto;
 }
 
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1200px;
+    max-width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+}
 .header {
   width: 100%;
-  font-size: 30px;
   background-color: white;
 }
 
@@ -133,6 +149,12 @@ ul {
 }
 
 .title__icon {
+  height: 33px;
+  width: 33px;
+  margin-right: 20px;
+}
+
+.social__icon {
   margin-right: 20px;
 }
 
@@ -184,17 +206,67 @@ ul {
   display: flex;
 }
 
+@media screen and (min-width: 768px) {
+  .title__item {
+    margin-right: 20px;
+  }
+  .title__icon {
+    height: 38px;
+    width: 38px;
+    margin-right: 10px;
+  }
+  .title__logo {
+    font-size: 20px;
+  }
+  .title__description {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 135%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .title__item {
+    margin-right: 40px;
+  }
+  .title__icon {
+    height: 43px;
+    width: 43px;
+    margin-right: 15px;
+  }
+  .title__logo {
+    font-size: 25px;
+  }
+  .title__description {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .title__item {
+    margin-right: 60px;
+  }
+  .title__icon {
+    height: 63px;
+    width: 63px;
+    margin-right: 20px;
+  }
+  .title__logo {
+    font-size: 30px;
+  }
+  .title__description {
+    font-size: 14px;
+  }
+}
 .hero {
   height: 100vh;
   width: 100vw;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/elevator.jpg");
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/elevator.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/elevator320.jpg");
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/elevator320.jpg");
   background-size: cover;
   color: white;
 }
 
 .hero-container {
-  padding-top: 250px;
+  padding-top: 150px;
 }
 
 .hero-descrition {
@@ -220,6 +292,38 @@ ul {
   border: none;
 }
 
+@media screen and (min-width: 480px) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/elevator480.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/elevator480.jpg");
+    padding-top: 180px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/elevator768.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/elevator768.jpg");
+    padding-top: 200px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/elevator1200.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/elevator1200.jpg");
+  }
+  .hero-container {
+    padding-top: 220px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/elevator1440.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/elevator1440.jpg");
+  }
+  .hero-container {
+    padding-top: 250px;
+  }
+}
 .about-container {
   padding-top: 60px;
   padding-bottom: 320px;
