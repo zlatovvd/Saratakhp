@@ -1,4 +1,4 @@
-.opportunity {
+.opportunity-container {
     position:relative;
     display: flex;
     height: 570px;
@@ -16,19 +16,19 @@
     height: 100%;
     width: 50%;
     padding-top: 140px;
-    padding-left: 240px;
+    padding-left: 140px;
+    padding-right: 20px;
     background-color: #F4F4F4;
 }
 
 .opportunity-description {
-    width: 550px;    
+    //width: 350px;    
 
     & h2 {
         margin-bottom: 20px;
         font-weight: 600;
         font-size: 35px;
         line-height: 100%;
-        letter-spacing: 0%;   
     }    
 
     & p  {
@@ -43,10 +43,10 @@
 .opportunity-wrap {
     position: absolute;
     top: 50%;
-    left: 30%; 
-    transform: translate(-30%, -50%);        
-    height: 410px;
-    width: 729px;
+    left: 20%; 
+    transform: translate(-20%, -50%);        
+    //height: 210px;
+    max-width: 250px;
     background-color: aqua;
 }
 
@@ -55,4 +55,61 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+@media screen and (min-width: 480px) {
+    .opportunity-wrap {
+        // left: 25%; 
+        // transform: translate(-25%, -50%);        
+        max-width: 250px;
+    }
+        
+}
+
+@media screen and (min-width: 768px) {
+    
+    .opportunity__right-panel {
+        padding-top: 100px;
+        padding-left: 160px;
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+
+    .opportunity__right-panel {
+        // padding-top: 100px;
+        padding-left: 190px;
+    }
+
+    .opportunity-wrap {
+        height: 410px;
+        max-width: 629px;
+        left: 20%; 
+        transform: translate(-20%, -50%);                
+    }    
+
+    .opportunity-description {
+        //width: 400px;   
+    }    
+}
+
+@media screen and (min-width: 1440px) {
+
+    .opportunity__right-panel {
+        // padding-top: 100px;
+        padding-left: 200px;
+    }    
+
+    .opportunity-wrap {
+        height: 410px;
+        max-width: 729px;
+        left: 30%; 
+        transform: translate(-30%, -50%);           
+    } 
+    
+    .opportunity-description {
+        //width: 550px;   
+    }
+
 }
