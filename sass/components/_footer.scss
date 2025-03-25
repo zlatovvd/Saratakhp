@@ -17,7 +17,7 @@
 }
 
 .footer-contacts {
-    display: flex;
+    //display: flex;
     padding-top: 40px;
     padding-bottom: 40px;
     margin-left: -30px;
@@ -59,7 +59,7 @@
 }
 
 .footer-input {
-    width: 317px;
+    width: 100%;
     color: white;
     padding: 10px;
     background-color: transparent;
@@ -67,7 +67,7 @@
 }
 
 .footer-send {
-    display: flex;
+    //display: flex;
     align-items: center;
     padding-top: 30px;
 }
@@ -75,6 +75,7 @@
 .footer-btn {
     padding: 20px 40px;
     margin-right: 20px;
+    margin-bottom: 20px;
     background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
     font-weight: 600;
     font-size: 16px;
@@ -96,4 +97,22 @@
         background-color: #4E5683;
         content: "";
     }
+}
+
+@media screen and (min-width: 768px) {
+    
+    .footer-send {
+        display: flex;
+        align-items: center;
+        padding-top: 30px;
+    }
+
+}
+
+
+@media screen and (min-width: 1200px) {
+    .footer-contacts {
+        display: flex;
+    }
+    
 }

@@ -1,13 +1,12 @@
 .about-container {
     padding-top: 60px;
     padding-bottom: 320px;
-    display: flex;
-    justify-content: space-between;
 }
 
 .about-title {
     
-    width: 200px;
+    max-width: 280px;
+    margin-bottom: 40px;
 
     & > h2 {
         margin-bottom: 20px;
@@ -28,16 +27,12 @@
 }
 
 .about-list {
-    width: 900px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-
+    max-width: 280px;
 }
 
 .about-item {
     display: flex;
-    width: 391px;
+    width: 280px;
     margin-left: 20px;
     margin-bottom: 20px;
 
@@ -79,4 +74,53 @@
         content: "";
     }
 
+}
+
+@media screen and (min-width: 480px) {
+   
+    .about-list {
+        max-width: 440px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    
+    }    
+
+    .about-item {
+        width: 440px;    
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+
+    .about-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .about-title {
+        max-width: 3280px;
+    }
+
+    .about-list {
+        max-width: 408px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    
+    }    
+
+    .about-item {
+        width: 391px;    
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+
+    .about-list {
+        max-width: 900px;    
+    }    
+    
 }

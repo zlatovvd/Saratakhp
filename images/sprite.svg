@@ -4,7 +4,7 @@
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.1429" d="M14.663 4.094v-3.523"></path>
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.1429" d="M28.754 20.534c-2.143 7.486-12.066 10.099-13.827 10.51-0.173 0.044-0.355 0.044-0.528 0-1.761-0.411-11.684-3.024-13.827-10.51v-5.020c-0-0.247 0.078-0.488 0.223-0.688s0.349-0.35 0.584-0.427l12.917-4.315c0.239-0.074 0.495-0.074 0.734 0l12.917 4.315c0.235 0.077 0.439 0.227 0.584 0.427s0.223 0.441 0.223 0.688v5.020z"></path>
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.1429" d="M14.93 27.237c-1.394-0.321-9.244-2.361-10.94-8.205"></path>
-<path fill="#ffd550" style="fill: var(--color1, #ffd550)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.1429" stroke="#000" d="M3.99 5.704v7.516l10.598-3.761 10.598 3.761v-7.516c0-0.947-0.767-1.714-1.714-1.714h-17.767c-0.947 0-1.714 0.768-1.714 1.714z"></path>
+<path fill="#ffd550" style="fill: var(--color1, #ffffff)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.1429" stroke="#000" d="M3.99 5.704v7.516l10.598-3.761 10.598 3.761v-7.516c0-0.947-0.767-1.714-1.714-1.714h-17.767c-0.947 0-1.714 0.768-1.714 1.714z"></path>
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.1429" d="M14.663 21.708v-11.684"></path>
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.1429" d="M17.665 21.084v-4.786"></path>
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.1429" d="M6.725 10.144v-3.419"></path>

@@ -15,6 +15,11 @@
 
 .hero-descrition {
   width: 300px;
+
+  & p {
+    margin-top: 20px;
+  }
+
 }
 
 .hero_title {
@@ -116,7 +121,7 @@
   }
 
   .hero-container {
-    padding-top: 180px;
+    padding-top: 220px;
   }
 
   .hero-descrition {

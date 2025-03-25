@@ -1,17 +1,14 @@
 .services {
     position: relative;
-    height: 570px;
+    height: 1710px;
     background: linear-gradient(95deg, #FFB629 -1.19%, #FFDA56 57.78%, #FFD7A6 115.08%);
-    //background-color: #FFDA56;
 }
 
 .services-container {
-    //display: flex;
-    //justify-content: center;
     position: absolute;
     top: 0;
     left: 50%; 
-    transform: translate(-50%, -30%);    
+    transform: translate(-50%, -10%);    
 }
 
 .services h2 {
@@ -26,19 +23,15 @@
 }
 
 .services-list {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -30px;
-    margin-bottom: -30px;
+	display: block;
+   // margin-bottom: -30px;
 }
 
 .services-item {
-    flex-basis: calc((100% - 90px) / 3);
-    margin-left: 30px;
     margin-bottom: 30px;
 	display: block;
-	// width: 320px;
-	background-color: aqua;
+	//flex-basis: calc((100% - 10px));
+	width: 264px;
 }
 
 .services-wrap {
@@ -55,18 +48,17 @@
 
 .services-description {
 	position: absolute;
-		bottom: 0;
-		width: 100%;
-		padding-top: 15px;
-		padding-bottom: 15px;
-		font-weight: 700;
-		font-size: 14px;
-		line-height: 1.14;
-		text-align: center;
-		// text-transform: uppercase;
-		letter-spacing: 0.03em;
-		color: var(--white-color);
-		background: rgba(47, 48, 58, 0.8);
+	bottom: 0;
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--white-color);
+	background: rgba(47, 48, 58, 0.8);
 
 		& h3 {
 			
@@ -96,4 +88,44 @@
     line-height: 135%;
     color: white;
 	cursor: pointer;
+}
+
+@media screen and (min-width: 488px) {
+
+	.services {
+		height: 855px;
+	}
+
+	.services-container {
+		transform: translate(-50%, -20%);    
+	}	
+
+	.services-list {
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: -30px;
+		margin-bottom: -30px;
+	}
+	
+	.services-item {
+		flex-basis: calc((100% - 60px) / 2);
+		margin-left: 30px;
+		margin-bottom: 30px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+
+	.services {
+		height: 570px;
+	}
+
+	.services-container {
+		transform: translate(-50%, -30%);    
+	}		
+	
+	.services-item {
+		flex-basis: calc((100% - 90px) / 3);
+	}
+
 }
