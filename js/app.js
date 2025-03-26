@@ -3,6 +3,7 @@ const refs = {
     closeServicesBtn: document.querySelector("[data-services-close]"),
     closeHeroBtn: document.querySelector("[data-hero-close]"),
     closeMenuBtn: document.querySelector("[data-menu-close]"),
+    openMenuBtn: document.querySelector(".menu__open-btn"),
     heroBtn: document.querySelector(".hero-btn"),
     servicesModal: document.querySelector("[data-services]"),
     heroModal: document.querySelector("[data-hero]"),
@@ -27,6 +28,7 @@ refs.servicesBtn.addEventListener("click", toggleSevicesModal);
 refs.closeServicesBtn.addEventListener("click", toggleSevicesModal);
 refs.heroBtn.addEventListener("click", toggleHeroModal);
 refs.closeHeroBtn.addEventListener("click", toggleHeroModal);
+refs.openMenuBtn.addEventListener("click", toggleMenuModal);
 refs.closeMenuBtn.addEventListener("click", toggleMenuModal);
 
 for(let anchor of refs.anchors) {

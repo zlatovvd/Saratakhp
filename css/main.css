@@ -202,6 +202,26 @@ ul {
   color: white;
 }
 
+.menu__open-img {
+  width: 32px;
+  height: 32px;
+}
+
+.menu__open-btn {
+  height: 32px;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin-left: auto;
+  line-height: 0;
+  fill: #ffffff;
+}
+
+.menu__open-btn:hover,
+.menu__open-btn:focus {
+  fill: #FFB82B;
+}
+
 .social-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -248,6 +268,9 @@ ul {
   }
   .title__description {
     font-size: 12px;
+  }
+  .menu__open-btn {
+    visibility: hidden;
   }
 }
 @media screen and (min-width: 1440px) {
