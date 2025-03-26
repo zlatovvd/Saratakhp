@@ -915,4 +915,69 @@ ul {
   .services-modal {
     max-width: 680px;
   }
+}
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 64px;
+  background-color: #091242;
+  pointer-events: none;
+  z-index: 999;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  -webkit-transition: -webkit-transform 250ms linear;
+  transition: -webkit-transform 250ms linear;
+  transition: transform 250ms linear;
+  transition: transform 250ms linear, -webkit-transform 250ms linear;
+}
+.mobile-menu.is-visible {
+  pointer-events: auto;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.logo-modal {
+  position: absolute;
+  top: 12px;
+  left: 22px;
+  height: 37px;
+  width: 40px;
+}
+
+.menu__close-btn {
+  position: absolute;
+  top: 20px;
+  right: 22px;
+  height: 32px;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin-left: auto;
+  line-height: 0;
+  fill: #ffffff;
+  cursor: pointer;
+}
+.menu__close-btn:hover, .menu__close-btn:focus {
+  fill: #FFB82B;
+}
+
+.mobile__nav-item .mobile__nav-link {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.22;
+  color: #fcfcfc;
+}
+.mobile__nav-item .mobile__nav-link:active, .mobile__nav-item .mobile__nav-link:focus {
+  color: #FFB82B;
+}
+.mobile__nav-item:not(:last-child) {
+  margin-bottom: 32px;
+}
+.mobile__nav-item:last-child {
+  margin-bottom: 110px;
 }/*# sourceMappingURL=main.css.map */
