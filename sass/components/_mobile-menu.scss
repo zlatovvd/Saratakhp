@@ -5,7 +5,7 @@
     width: 100vw;
     height: 100vh;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 46px;
     padding-bottom: 64px;
     background-color: #091242;
     pointer-events: none;
@@ -21,16 +21,16 @@
   }
 
 .logo-modal {
-position: absolute;
-top: 12px;
-left: 22px;
+// position: absolute;
+// top: 46px;
+// left: 28px;
 height: 37px;
 width: 40px;
 }  
 
 .menu__close-btn {
     position: absolute;
-    top: 20px;
+    top: 46px;
     right: 22px;
     height: 32px;
     background-color: transparent;

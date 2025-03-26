@@ -17,6 +17,7 @@
   width: 300px;
 
   & p {
+    display: none;
     margin-top: 20px;
   }
 
@@ -51,7 +52,7 @@
    }  
 
    .hero-container {
-    padding-top: 150px;
+    padding-top: 120px;
   }
    
   .hero-descrition {
@@ -75,7 +76,7 @@
   }
 
   .hero-container {
-    padding-top: 160px;
+    padding-top: 120px;
   }
 
   .hero-descrition {
@@ -103,6 +104,10 @@
 
   .hero-descrition {
     width: 450px;
+
+    & p {
+      display: block;
+    }
   }
 
   .hero_title {
