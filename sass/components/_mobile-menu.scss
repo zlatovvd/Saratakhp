@@ -15,6 +15,7 @@
   
     &.is-visible {
       pointer-events: auto;
+      //visibility: visible;
       transform: translateY(0);
       
     }
@@ -49,6 +50,9 @@ width: 40px;
 }
 
 .mobile__nav-item {
+
+  margin-top: 70px;
+
     & .mobile__nav-link {
       font-weight: 700;
       font-size: 32px;
@@ -69,4 +73,14 @@ width: 40px;
       margin-bottom: 110px;
     }
 }
+
+// @media screen and (min-width: 768px) {
+
+
+//   .is_visible {
+//     //transform: translateY(-100);
+//     visibility: hidden;
+//   }
+  
+// }
   

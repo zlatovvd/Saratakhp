@@ -215,6 +215,7 @@ ul {
   margin-left: auto;
   line-height: 0;
   fill: #ffffff;
+  cursor: pointer;
 }
 
 .menu__open-btn:hover,
@@ -229,6 +230,9 @@ ul {
 }
 
 @media screen and (min-width: 768px) {
+  .menu__open-btn {
+    visibility: hidden;
+  }
   .title__list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -268,9 +272,6 @@ ul {
   }
   .title__description {
     font-size: 12px;
-  }
-  .menu__open-btn {
-    visibility: hidden;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -991,6 +992,9 @@ ul {
   fill: #FFB82B;
 }
 
+.mobile__nav-item {
+  margin-top: 70px;
+}
 .mobile__nav-item .mobile__nav-link {
   font-weight: 700;
   font-size: 32px;
