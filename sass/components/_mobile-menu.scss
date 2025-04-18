@@ -12,14 +12,21 @@
     z-index: 999;
     transform: translateY(-100%);
     transition: transform 250ms linear;
+    visibility: hidden;
   
     &.is-visible {
       pointer-events: auto;
-      //visibility: visible;
+      visibility: visible;
       transform: translateY(0);
       
     }
   }
+
+.mobile__menu-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 .logo-modal {
 // position: absolute;
@@ -29,10 +36,14 @@ height: 37px;
 width: 40px;
 }  
 
+.title__logo {
+  color: #fcfcfc;
+}
+
 .menu__close-btn {
-    position: absolute;
-    top: 46px;
-    right: 22px;
+    //position: absolute;
+    // top: 46px;
+    // right: 22px;
     height: 32px;
     background-color: transparent;
     border: none;

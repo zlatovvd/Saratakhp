@@ -14,7 +14,7 @@
     padding-bottom: 46px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items:center;
 
     & > a {
         color: white;
@@ -132,10 +132,6 @@
     fill: #FFB82B;
 }
 
-
-
-
-
 .social-list {
     display: flex;
 }
@@ -143,7 +139,8 @@
 @media screen and (min-width: 768px) {
 
     .menu__open-btn {
-        visibility: hidden;
+    //    visibility: hidden;
+    display: none;
     }
 
     .title__list {
